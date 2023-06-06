@@ -16,7 +16,7 @@ public class Task004 {
         int[][] matrix = new int[5][5];
         for (int[] ints : matrix) {
             for (int i = 0; i < ints.length; i++) {
-                ints[i] = rand.nextInt(3);
+                ints[i] = rand.nextInt(2);
             }
             System.out.println(Arrays.toString(ints));
         }
