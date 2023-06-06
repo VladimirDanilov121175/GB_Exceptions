@@ -1,5 +1,7 @@
 package Homework01;
 
+// 1) Реализуйте 3 метода, чтобы в каждом из них получить разные исключения
+
 public class Task_1 {
     public static void main(String[] args) {
         throwsArrayIndexOutOfBoundsException(new int[4], new int[5]);
